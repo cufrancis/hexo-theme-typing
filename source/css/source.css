@@ -500,10 +500,10 @@ $highlight-purple: #8959a8;
       margin: 0;
       width: 100%;
     }
-    td {
+    /*td {
       border: 0;
       padding: 0;
-    }
+    }*/
     figcaption {
       color: $highlight-comment;
       a {
