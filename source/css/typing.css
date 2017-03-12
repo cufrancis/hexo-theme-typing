@@ -166,7 +166,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-size:2em
 }
 .typo-h2,.typo h2 {
-	font-size:1.8em
+	font-size:1.3em
 }
 .typo-h3,.typo h3 {
 	font-size:1.6em
@@ -236,7 +236,8 @@ h1,h2,h3,h4,h5,h6 {
 	-webkit-text-size-adjust:100%
 }
 body {
-	margin:0
+	margin:0;
+	font-family: Georgia, serif
 }
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {
 	display:block
@@ -407,7 +408,7 @@ body,h1,h2,h3,h4,h5,h6 {
 	transition:all .25s ease
 }
 body {
-	font-size:20px
+	font-size:20px;
 }
 a {
 	color:#222;
@@ -439,7 +440,9 @@ em {
 	color:#aeb4b9
 }
 .container {
-	width:100%
+	width:100%;
+	line-height: 180%;
+	background-color: #f5f5d5
 }
 .copyright,.footer-content {
 	text-align:center;
@@ -469,7 +472,8 @@ em {
 	flex-direction:column;
 	-webkit-box-pack:center;
 	-ms-flex-pack:center;
-	justify-content:center
+	justify-content:center;
+	background-color: #f5f5d5
 }
 .home {
 	font-weight:lighter;
@@ -584,7 +588,7 @@ em {
 	font-weight:bolder
 }
 .article .article-title {
-	font-size:2.5em
+	font-size:1.5em
 }
 .article a.fancybox,.article a.fancybox-item {
 	border:0
@@ -817,4 +821,21 @@ pre .javascript .function,pre .keyword {
 .archive-container,.archive-footer,.article,.comments,.home .content,.post-footer {
 	width:80%
 }
+}
+
+p{
+	text-indent:1.6em;
+	padding:0px;
+	margin:0px;
+	/*color:#111111*/
+}
+
+@media screen and (max-device-width: 400px) {
+	.article {
+		width: 80%;
+		margin:0 auto
+	}
+	.archive-container {
+		width: 80%
+	}
 }
