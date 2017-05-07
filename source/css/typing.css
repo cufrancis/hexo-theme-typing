@@ -6,6 +6,16 @@
 	-ms-text-size-adjust:100%;
 	text-rendering:optimizelegibility
 }
+@font-face {
+	font-family: monaco;
+    src: url('../font/Monaco.eot');
+    src: url('../font/Monaco.eot?#iefix') format('embedded-opentype'),
+		url('../font/Monaco.woff2') format('woff2'),
+	 	url('../font/Monaco.woff') format('woff'),
+        url('../font/Monaco.ttf') format('trueType');
+	font-weight: normal;
+	font-style: normal;
+}
 html.borderbox *,html.borderbox:after,html.borderbox:before {
 	box-sizing:border-box
 }
@@ -102,7 +112,7 @@ mark {
 	margin:0 5px
 }
 code,pre,pre tt {
-	font-family:Courier,Courier New,monospace
+	font-family:monaco, Courier,Courier New,monospace
 }
 pre {
 	background:#f8f8f8;
@@ -304,7 +314,7 @@ svg:not(:root) {
 	overflow:hidden
 }
 code,kbd,pre,samp {
-	font-family:monospace,monospace;
+	font-family:monaco,monospace,monospace;
 	font-size:1em
 }
 figure {
@@ -402,7 +412,7 @@ body,html {
 body,h1,h2,h3,h4,h5,h6 {
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
-	font-family:source sans pro,proxima nova,-apple-system,sans-serif;
+	font-family:monaco, source sans pro,proxima nova,-apple-system,sans-serif;
 	-moz-font-feature-settings:"liga" on;
 	-webkit-transition:all .25s ease;
 	transition:all .25s ease
@@ -442,7 +452,7 @@ em {
 .container {
 	width:100%;
 	line-height: 180%;
-	background-color: #f5f5d5
+	/*background-color: #f5f5d5*/
 }
 .copyright,.footer-content {
 	text-align:center;
@@ -473,7 +483,7 @@ em {
 	-webkit-box-pack:center;
 	-ms-flex-pack:center;
 	justify-content:center;
-	background-color: #f5f5d5
+	/*background-color: #f5f5d5*/
 }
 .home {
 	font-weight:lighter;

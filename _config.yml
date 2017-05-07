@@ -10,7 +10,7 @@ menu:
 rss: /atom.xml
 
 # Content
-fancybox: true
+fancybox: false
 
 # highlight.js
 highlight:
