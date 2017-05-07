@@ -5,7 +5,8 @@ language: en
 menu:
   Home: /
   Archives: /archives
-  # About: /about
+  Website: /websites
+  About: /about
 rss: /atom.xml
 
 # Content
@@ -30,7 +31,7 @@ nickname: LuoXiaojie
 description: To be a Full Stack Engineer.
 links:
   Blog: /archives
-  GitHub: https://github.com/cufrancis
+  GitHub: https://github.com/xiaojieluo
   # Instagram: http://instagram.com/
   Facebook: https://www.facebook.com/cufrancis
   Twitter : https://twitter.com/luoxiaojieff
